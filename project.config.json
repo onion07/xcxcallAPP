@@ -1,0 +1,45 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wx74bbc6e29b64b566",
+	"projectname": "node-server",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "query 测试",
+					"pathName": "pages/apptest/apptest",
+					"query": "id=123&mm=000"
+				},
+				{
+					"id": 1,
+					"name": "昵称头像",
+					"pathName": "pages/apptest/apptest",
+					"query": "head=https://img.hongrenshuo.com.cn/2053229637677.png?t=1515581779000&nickname=李二狗子&gamename=斗兽棋&roomid=0000123"
+				}
+			]
+		}
+	}
+}

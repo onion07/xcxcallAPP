@@ -1,0 +1,135 @@
+
+.b{
+  font-size: 700;
+}
+.text-center{
+  text-align: center;
+}
+
+.wrap{
+    position: absolute;
+    top: -66rpx;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    padding-top: 66rpx;
+    background: url(https://res.uxin.com/activity/gameInvitation-bg3.png) no-repeat center;
+    background-size: 100% 100%;
+}
+image{
+  width: 100%;
+}
+.WH100 {
+    position: relative;
+    height: 100%;
+}
+.content {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60rpx;
+}
+.roombox{
+    padding: 80rpx 66rpx 110rpx;
+    height: 666rpx;
+    background-color: #FFFFFF ;
+    background-image: url(https://live.booksn.com/web/active/img/gameInvitation/pic_lines.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    box-shadow: 0 0 6rpx 0 rgba(52,135,126,0.50);
+    border-radius: 12rpx;
+}
+.photo{
+    text-align: center;
+    font-size: 0;
+}
+.photo image{
+        width: 120rpx;
+        height: 120rpx;
+        border-radius: 120rpx;
+    }
+.name{
+    padding: 16rpx 0 30rpx;
+    font-size: 32rpx;
+    color: #817F7A;
+    line-height: 24rpx;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap!important;
+}
+.game{
+    font-size: 36rpx;
+    line-height: 40rpx;
+    text-align: center;
+}
+.roomInfo{
+    position: relative;
+    margin-top: 198rpx;
+    /* height:94rpx; */
+    background: #F6F4EE;
+    border: 1rpx solid #E9E6DF;
+    border-radius: 12rpx;
+}
+.title{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 194rpx;
+        height: 60rpx;
+        background: #FED636;
+        border: 1rpx solid #D7B533;
+        border-radius: 8rpx;
+        line-height: 58rpx;
+        font-size: 32rpx;
+        text-align: center;
+        
+}
+.title icon{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        width: 128rpx;
+        height: 44rpx;
+        background: url(https://live.booksn.com/web/active/img/gameInvitation/pic_dog.png) no-repeat center;
+        background-size: 100% 100%;
+}
+.roomNum{
+        height:94rpx;
+        padding: 44rpx 0;
+        text-align: center;
+}
+#roomNum{
+        margin-top: 24rpx;
+        font-family: 'PingFangSC-Medium';
+        font-size: 60rpx;
+        text-align: center;
+        line-height: 60rpx;
+}
+.tips{
+    font-size: 14rpx;
+    line-height: 40rpx;
+    text-align: center;
+    color: #A9A8A4;
+}
+.enter-room{
+    margin-top: 40rpx;
+    display: block;
+    background: #FED636;
+    box-shadow: 0 0 12rpx 0 rgba(52,135,126,0.40);
+    border-radius: 12rpx;
+    font-size: 32rpx;
+    line-height: 100rpx;
+    text-align: center;
+    letter-spacing: 0;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}

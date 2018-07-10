@@ -1,0 +1,32 @@
+<view class="wrapper">
+  <!-- <view  class="text-center b">
+      <text>test调起APP</text>
+  </view> -->
+   <!-- <view class="pic">
+    <image src="https://live.booksn.com/web/active/img/bigshot/baner1.png" />
+  </view>  -->
+  <view class="wrap">
+    <view class="WH100">
+      <view class="content">
+          <view class="roombox">
+            <view class="topInfo">
+              <view class="photo">
+                <image src="{{imgsrc}}" />
+                <view class="name">{{nickname}}</view>
+                <view class='game'>邀请你来玩<text id="this-game">{{gamename}}</text></view>
+              </view>
+            </view>
+            <view class="roomInfo">
+              <view class="title">房间号<icon></icon></view>
+              <view class="roomNum">
+                <view id="roomNum"><text selectable>{{roomid}}</text></view>
+              </view>
+            </view>
+            <view class="tips">长按复制房间号</view>
+          </view>
+          <button class="enter-room" id="openAppBtn" wx:if="{{nowOpenApp}}" open-type="launchApp" app-parameter="{{ops_param}}" binderror="launchAppError">进入房间</button>
+      </view>
+    </view>
+  </view>
+  
+</view>
